@@ -1,0 +1,934 @@
+:root {
+  --headingfont: 'Fashion Wacks';
+  --logofont: 'Arizonia', cursive;
+  --poppinsfont: 'Poppins';
+  --primary-color: #223752;
+  --secondary-color: #113a37;
+  --light-color: #587e78;
+}
+
+
+@media(max-width: 1200px) {
+  header .social-icon {
+    margin-top: 40px;
+    margin-left: 15px;
+  }
+
+  .navbarsec {
+    margin-top: 30px;
+  }
+
+  .baricon {
+    margin-top: 16px;
+  }
+
+  .searchsec {
+    margin-top: 26px;
+  }
+
+  header .logo h1 {
+    font-size: 50px;
+    line-height: 79px;
+    margin-top: 20px;
+  }
+
+  header .login-btn {
+    margin-top: 30px;
+    margin-right: 25px;
+  }
+
+  .herohdng h1 {
+    font-size: 50px;
+    line-height: 82px;
+    margin-top: 20px;
+  }
+
+  .banner .shopnowbtn {
+    display: flex;
+  }
+
+  .banner .shopnowbtn a {
+    font-size: 18px;
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .feturessec .featurehdng h1 {
+    font-size: 50px;
+    line-height: 83px;
+    color: var(--primary-color);
+    font-family: var(--headingfont);
+  }
+
+  .feturessec .faturescntnt p {
+    font-size: 18px;
+    color: var(--primary-color);
+    font-weight: 275;
+    font-family: var(--poppinsfont);
+    margin-top: 2px;
+  }
+
+  .ourprdctsec .verticletabsec .tab-content .product-frst .product-main-img {
+    margin-top: -139px;
+  }
+
+  .ourprdctsec .newarivals h1 {
+    font-size: 87px;
+    line-height: 94px;
+  }
+
+  .ourprdctsec .prdctmain .prdcthdng h1 {
+    font-size: 30px;
+  }
+
+  .ourprdctsec .prdctimg {
+    margin-top: 25px;
+  }
+
+  .ourprdctsec .producthdng h1 {
+    font-size: 70px;
+    line-height: 6px;
+    margin-top: 17px;
+  }
+
+  .ourprdctsec .verticletabsec .tab-content .product-frst .product-main .product-main-pric {
+    gap: 30px;
+  }
+
+  .product-frst .product-main .product-main-hdng {
+    margin-top: 25px;
+
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .ourprdctsec .prdctmain .shopnowbtn {
+    text-align: left;
+    margin-left: 25px;
+    margin-bottom: 60px;
+  }
+
+  .nav2 .menu {
+    color: var(--primary-color);
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px 8px;
+    margin-top: 36px;
+    margin-left: 20px;
+  }
+
+  .feturessec .featurehdng h1 {
+    font-size: 43px;
+    line-height: 44px;
+    color: var(--primary-color);
+    font-family: var(--headingfont);
+  }
+
+  .feturessec .faturescntnt p {
+    margin-top: 13px;
+  }
+
+  .ourprdctsec .newarivals h1 {
+    font-size: 70px;
+    line-height: 80px;
+  }
+
+  .prdcthdng h1 {
+    font-size: 19px;
+    padding-right: 24px;
+  }
+
+  .ourprdctsec .prdctmain .prdcthdng h1 {
+    font-size: 19px;
+    padding-top: 40px;
+    padding-left: 29px;
+  }
+
+  .ourprdctsec .prdctcntnt p {
+    font-size: 19px;
+    margin-top: -25px;
+  }
+
+  .ourprdctsec .producthdng h1 {
+    font-size: 50px;
+    line-height: 15px;
+    margin-top: 0;
+  }
+
+  .ourprdctsec .productbtn .shopnowbtn a {
+    padding: 6px 16px;
+    font-size: 19px;
+  }
+
+  .ourprdctsec .verticletabsec .tab-content .product-frst {
+    position: relative;
+    padding: 6px;
+  }
+
+  .ourprdctsec .verticletabsec .tab-content .product-frst .carticon {
+    position: absolute;
+    top: 8px;
+    bottom: 22px;
+    right: 1px;
+  }
+
+  .ourprdctsec .verticletabsec .tab-content .product-frst .product-main .product-main-pric {
+    justify-content: space-evenly;
+    gap: 0;
+    padding-left: 0;
+  }
+
+  .ourprdctsec .verticletabsec .tab-content .product-frst .product-main .product-main-hdng h4 {
+    font-size: 22px;
+  }
+
+  .ourprdctsec .verticletabsec .tab-content .product-frst .product-main-img {
+    margin-top: -114px;
+  }
+
+  .ourprdctsec .verticletabsec .tab-content .product-frst .product-main {
+    padding-bottom: 95px;
+  }
+
+  .creativitysec .creativehdng h1 {
+    font-size: 25px;
+  }
+
+  .creativitysec .creativehdng h2 {
+    font-size: 25px;
+  }
+
+  .creativitysec .creativehdng .shopnowbtn a {
+    padding: 6px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 12px;
+  }
+
+  .reviewsec .reviewhdng p i {
+    font-size: 90px;
+  }
+
+  .prflhdng p.content {
+    padding: 30px 42px;
+  }
+
+  .footersec .ftrlinks ul li a {
+    font-size: 12px;
+  }
+
+  .footersec .newsbtn h1 {
+    font-size: 25px;
+  }
+
+  .footersec .ftrsocial-icon li a i {
+    font-size: 18px;
+  }
+
+  .banner .shopnowbtn a {
+    line-height: 30px;
+  }
+
+  header .logo h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 26px;
+  }
+
+  .navbarsec .nav__side {
+    display: flex;
+    justify-content: center;
+    margin-top: -18px;
+  }
+}
+
+@media(max-width: 600px) {
+  header .social-icon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .baricon {
+    margin-top: -50px;
+  }
+
+  .feturessec .fatures-main {
+    margin-top: 0;
+  }
+
+  .feturessec .featurehdng h1 {
+    font-size: 48px;
+  }
+
+  .feturessec .faturescntnt p {
+    margin-top: 0;
+  }
+
+  .ourprdctsec .newarivals h1 {
+    font-size: 50px;
+    padding-left: 0;
+  }
+
+  .ourprdctsec .prdctcntnt .shopnowbtn {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  .ourprdctsec .prdctcntnt p {
+    font-size: 19px;
+    margin-top: -10px;
+  }
+
+  .ourprdctsec .verticletabsec .tab-content .product-frst .product-main-img img {
+    width: 100%;
+    object-fit: contain;
+    height: 300px;
+  }
+
+  .ourprdctsec .verticletabsec .tab-content .product-frst .product-main .product-main-hdng h4 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .ourprdctsec .verticletabsec .tab-content .product-frst .product-main .product-main-pric {
+    justify-content: center;
+    padding-left: 0;
+    gap: 25px;
+  }
+
+  .creativitysec .creativehdng .shopnowbtn {
+    padding-bottom: 0;
+  }
+
+  header .login-btn {
+    justify-content: center;
+  }
+}
+
+.ourprdctsec .prdctcntnt {
+  margin-top: 0;
+}
+
+.ourprdctsec .prdctmain-two .prdcthdng {
+  padding: 0 30px;
+}
+
+.ourprdctsec .prdctmain-two .shopnowbtn {
+  padding: 0px 30px 25px 30px;
+}
+
+.ourprdctsec .producthdng h1 {
+  font-size: 80px;
+}
+
+.ourprdctsec .verticletabsec .tab-content .product-frst .product-main {
+  padding-bottom: 160px;
+}
+
+.ourprdctsec .verticletabsec .tab-content .product-frst .product-main-img {
+  margin-top: -175px;
+}
+
+.footersec .newsbtn {
+  margin-left: 40px;
+}
+
+.footersec .emailinput {
+  margin-left: 40px;
+}
+
+.reviewsec .reviewhdng p i {
+  font-size: 100px;
+}
+
+.reviewsec .reviewhdng h1 {
+  font-size: 45px;
+}
+
+.ourprdctsec .productbtn .shopnowbtn a {
+  padding: 7px 10px;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+  .searchsec {
+    margin-top: -50px;
+  }
+
+  .searchsec .mbsearch {
+    display: flex;
+    gap: 30px;
+    margin-right: 125px;
+  }
+
+  .herohdng h1 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 25px;
+  }
+
+  .herohdng p {
+    font-size: 16px;
+  }
+
+  .feturessec .featurehdng h1 {
+    font-size: 32px;
+    line-height: 46px;
+  }
+
+  .creativitysec .creativehdng p {
+    color: #fff;
+    padding-left: 20px;
+  }
+
+  .creativitysec .creativehdng h1 {
+    font-size: 25px;
+    padding-left: 20px;
+  }
+
+  .creativitysec .creativehdng h2 {
+    font-size: 25px;
+    padding-left: 20px;
+  }
+
+  .creativitysec .creativehdng .shopnowbtn {
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 0;
+  }
+
+  .iconsec .carhdng p {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  .ourprdctsec .newarivals h1 {
+    font-size: 50px;
+  }
+
+  .ourprdctsec .prdctcntnt p {
+    font-size: 16px;
+    margin-top: -10px;
+    padding: 0 20px;
+  }
+
+  .ourprdctsec .prdctmain-two .prdctimg {
+    /* padding: 20px; */
+    text-align: center;
+  }
+
+  .ourprdctsec .prdctmain-two .prdcthdng {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .ourprdctsec .prdctmain-two .shopnowbtn {
+    text-align: center;
+  }
+
+  .prdctmain .prdcthdng {
+    text-align: center;
+  }
+
+  .ourprdctsec .prdctmain .shopnowbtn {
+    text-align: center;
+    margin-left: 25px;
+  }
+
+  .ourprdctsec .prdctimg {
+    margin-top: 0;
+  }
+
+  .ourprdctsec .producthdng h1 {
+    font-size: 40px;
+  }
+
+  .ourprdctsec .productbtn .shopnowbtn a {
+    padding: 6px 15px;
+    font-size: 16px;
+  }
+
+  .nav-pills .nav-link.active {
+    padding: 3px 15px;
+    font-size: 16px;
+  }
+
+  .nav-pills .nav-link {
+    font-size: 16px;
+  }
+
+  .ourprdctsec .verticletabsec .tab-content .product-frst .product-main .product-main-hdng h4 {
+    text-align: center;
+    font-size: 29px;
+  }
+
+  .ourprdctsec .verticletabsec .tab-content .product-frst .product-main .product-main-pric {
+    justify-content: center;
+    gap: 20px;
+    padding-left: 0;
+  }
+
+  .ourprdctsec .verticletabsec .tab-content .product-frst .product-main-img img {
+    width: 100%;
+    object-fit: contain;
+    height: 300px;
+  }
+
+  /* .ourprdctsec .verticletabsec .tab-content .product-frst{
+  padding: 0;
+} */
+  .feturessec .fatures-main {
+    margin-top: 0;
+    padding: 0 20px;
+  }
+
+  .footersec .btncntnt p {
+    text-align: center;
+  }
+
+  .footersec .btncntnticon {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .iconsec .caricon img {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+  }
+
+  .ourprdctsec .prdctcntnt .shopnowbtn {
+    text-align: left;
+    margin-bottom: 25px;
+    margin-left: 18px;
+  }
+
+  .feturessec .featurehdng h1 {
+    font-size: 35px;
+  }
+
+  .ourprdctsec .newarivals h1 {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .herohdng h1 {
+    font-size: 30px;
+    line-height: 20px;
+    margin-top: 25px;
+  }
+
+  .herohdng p {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .banner .shopnowbtn a {
+    font-size: 15px;
+    padding: 0px 16px;
+    line-height: 30px;
+  }
+
+  .feturessec .featurehdng h1 {
+    font-size: 32px;
+    line-height: 46px;
+  }
+
+  .creativitysec .creativehdng p {
+    color: #fff;
+    padding-left: 20px;
+  }
+
+  .creativitysec .creativehdng h1 {
+    font-size: 25px;
+    padding-left: 20px;
+  }
+
+  .creativitysec .creativehdng h2 {
+    font-size: 25px;
+    padding-left: 20px;
+  }
+
+  .creativitysec .creativehdng .shopnowbtn {
+    padding-left: 20px;
+  }
+
+  header .logo h1 {
+    font-size: 35px;
+    line-height: 30px;
+    margin-top: 20px;
+    color: var(--primary-color);
+  }
+
+  .ourprdctsec .producthdng h1 {
+    font-size: 40px;
+    line-height: 20px;
+  }
+
+  header .login-btn {
+    margin-top: 30px;
+    margin-right: 5px;
+  }
+
+  .nav__side .searchsec .mbsearch {
+    display: flex;
+    gap: 8px;
+  }
+
+  header .login-btn a.active {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 4px 17px;
+  }
+
+  .sidebar .top {
+    background-color: var(--light-color) !important;
+  }
+
+  .feturessec .faturescntnt .shopnowbtn a {
+    font-size: 15px;
+  }
+
+}
+
+
+
+@media (max-width: 280px) {
+  .navbarsec {
+    margin-top: 10px;
+  }
+  header .login-btn {
+    margin-top: 10px !important;
+    margin-right: 9px;
+  }
+  .iconsec .carhdng h3 {
+    font-size: 22px;
+  }
+  .iconsec .carhdng p {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+  .feturessec .featurehdng h3 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .fatures-main .featurehdng{
+    padding: 0 20px;
+  }
+  .feturessec .featurehdng h1 {
+    font-size: 28px;
+    line-height: 46px;
+  }
+  .feturessec .faturescntnt p {
+    margin-top: 0;
+    padding: 0 20px;
+    font-size: 16px;
+  }
+  .feturessec .faturescntnt .shopnowbtn {
+    text-align: left;
+    padding: 0 20px;
+  }
+  .feturessec .faturesimg {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .ourprdctsec .prdctmain .shopnowbtn a {
+    padding: 4px 16px;
+    font-size: 16px;
+  }
+  .ourprdctsec .prdctmain .shopnowbtn {
+    margin-top: 5px;
+  }
+  .ourprdctsec .prdctimg {
+    margin-top: -60px;
+  }
+  .ourprdctsec .newarivals h1 {
+    font-size: 40px;
+    padding-left: 20px;
+  }
+  .ourprdctsec .prdctcntnt p {
+    font-size: 16px;
+    margin-top: -16px;
+    padding-left: 20px;
+  }
+  .ourprdctsec .prdctcntnt .shopnowbtn {
+    text-align: left;
+    padding: 0 20px;
+  }
+  .ourprdctsec .prdctcntnt .shopnowbtn a{
+    font-size: 16px;
+  }
+  .ourprdctsec .prdctimg {
+    margin-top: -30px;
+  }
+  .ourprdctsec .prdctmain-two .prdcthdng {
+    margin-top: 0;
+  }
+  .ourprdctsec .prdctmain-two .shopnowbtn a {
+    padding: 5px 18px;
+    font-size: 16px;
+  }
+  .ourprdctsec .prdctmain-two .shopnowbtn{
+    margin-top: 15px;
+  }
+  .ourprdctsec .productbtn {
+    gap: 25px;
+    margin-top: 0;
+  }
+  .ourprdctsec .productbtn .shopnowbtn a {
+    font-size: 14px;
+    padding: 5px 14px;
+  }
+  .ourprdctsec .producthdng h1 {
+    font-size: 30px;
+    line-height: 0;
+  }
+  .nav-pills .nav-link.active {
+    padding: 2px 20px;
+    font-size: 16px;
+  }
+  .verticletabsec{
+    margin-top: -20px;
+  }
+  .nav-pills .nav-link {
+    font-size: 16px;
+  }
+  .verticletabsec .nav {
+    display: flex;
+    gap: 16px;
+  }
+  .ourprdctsec .verticletabsec .tab-content .product-frst .product-main {
+    padding-bottom: 129px;
+  }
+  .reviewsec .reviewhdng h1 {
+    font-size: 30px;
+  }
+  .reviewsec .reviewhdng p i {
+    font-size: 50px;
+  }
+  .reviewsec .reviewhdng p {
+    margin-top: 15px;
+  }
+  .footersec .btncntnticon a {
+    text-decoration: none;
+    background-color: #fff;
+    color: var(--secondary-color);
+    padding: 5px 10px 5px 12px;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .navbarsec .nav__side .nav2 .menu {
+    display: block;
+  }
+
+  .navbarsec .nav__side .desktop-nav {
+    display: none;
+  }
+
+  .baricon {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 1760px) {
+
+  .nav2 ul li:nth-last-of-type(1),
+  .nav2 ul li:nth-last-of-type(2),
+  .nav2 ul li:nth-last-of-type(3) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .nav2 .downloadApp a {
+    font-size: 15px;
+  }
+
+  .nav2 {
+    padding: 0 10px;
+  }
+
+  .nav2 ul {
+    display: flex;
+    gap: 0;
+  }
+
+}
+
+@media only screen and (max-width: 1288px) {
+  nav input {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 1105px) {
+
+  .nav2 ul li:nth-last-of-type(1),
+  .nav2 ul li:nth-last-of-type(2),
+  .nav2 ul li:nth-last-of-type(3),
+  .nav2 ul li:nth-last-of-type(4),
+  .nav2 ul li:nth-last-of-type(5) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  nav input {
+    width: 600px;
+  }
+
+  .nav2 ul {
+    display: flex;
+    gap: 0;
+  }
+}
+
+@media only screen and (max-width: 998px) {
+  nav input {
+    width: 400px;
+  }
+
+  .nav2 ul {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 804px) {
+  nav input {
+    width: 300px;
+  }
+
+  nav img {
+    width: 100px;
+  }
+
+  nav .links {
+    gap: 15px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 692px) {
+  nav input {
+    width: 200px;
+    height: 30px;
+  }
+
+  nav .searchbar button {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 498px) {
+  nav input {
+    width: 150px;
+  }
+
+  nav img {
+    width: 70px;
+  }
+
+  nav .links {
+    gap: 10px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  nav {
+    padding: 0 10px;
+  }
+
+  .nav2 .menu {
+    font-size: 15px;
+    padding: 3px 5px;
+  }
+
+  .nav2 .downloadApp a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 3px 5px;
+  }
+
+  .sidebar {
+    left: -120%;
+  }
+
+  .show {
+    left: 0;
+  }
+
+  .sidebar {
+    width: 100%;
+    gap: 15px;
+  }
+
+  .sidebar .top {
+    padding: 10px 30px;
+    background-color: var(--light-color);
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .sidebar .top button {
+    font-size: 20px;
+  }
+
+  .sidebar ul {
+    padding: 0 15px;
+    gap: 15px;
+    font-size: 15px;
+  }
+
+  .sidebar ul .title {
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .nav2 .menu {
+    border: none;
+    padding: 0;
+    font-size: 13px;
+  }
+
+  .nav2 .downloadApp a {
+    font-size: 13px;
+    border: none;
+    padding: 0;
+  }
+
+  nav .links div:nth-of-type(1),
+  nav .links div:nth-of-type(3) {
+    display: none;
+  }
+}
+
+@media (max-width: 390px) {
+  .nav__side .searchsec .mbsearch {
+    display: flex;
+    gap: 13px;
+  }
+
+  header .login-btn {
+    margin-top: 30px;
+    margin-right: 9px;
+  }
+
+  header .login-btn a.active {
+    font-size: 16px;
+  }
+
+  header .login-btn a {
+    font-size: 16px;
+  }
+
+}
