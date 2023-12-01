@@ -1084,6 +1084,22 @@ nav {
     gap: 30px;
 }
   /* main */
+/*01/12/2023  */
+
+.ourprdctsec .verticletabsec .tab-content .product-frst{
+    transition: 0.3s ease;
+}
+.ourprdctsec .verticletabsec .tab-content .product-frst:hover{
+    transform: translate(0, -15px);
+}
+/* main */
+.ourprdctsec .verticletabsec .tab-content .product-frst {
+    position: relative;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: -85px;
+}
+
   
   
   
